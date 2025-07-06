@@ -19,16 +19,16 @@ guess_count += 1
 
 while guess!= goal:
     if guess > goal:
-        guess = int(input('Too hight - try again:\n'))
+        guess = int(input('Too high - try again:\n'))
     else:
         guess = int(input('Too low - try again:\n'))
     guess_count += 1
     
 #print results
 if guess_count == 1:
-    print(' You guess it in 1 try.')
+    print('You guessed it in 1 try.')
 else:
-    print(f'Yuou guess it in {guess_count} tries.')
+    print(f'You guessed it in {guess_count} tries.')
     
 
         
