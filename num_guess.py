@@ -4,7 +4,7 @@
 
 
 # prompt user for integer to be guessed
-goal = int(input('Enter the integer for the player to guess. '))
+goal = int(input('Enter the integer for the player to guess.\n'))
 
 # guess counter
 
